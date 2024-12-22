@@ -79,16 +79,16 @@ See [here](doc/how-does-navicat-encrypt-password.md).
    __Example:__
 
    ```console
-   $ ./NavicatCipher.py enc "This is a test"
+   $ python ./NavicatCipher.py enc "This is a test"
    0EA71F51DD37BFB60CCBA219BE3A
 
-   $ ./NavicatCipher.py dec 0EA71F51DD37BFB60CCBA219BE3A
+   $ python ./NavicatCipher.py dec 0EA71F51DD37BFB60CCBA219BE3A
    This is a test
 
-   $ ./NavicatCipher.py enc -ncx "This is a test"
+   $ python ./NavicatCipher.py enc -ncx "This is a test"
    B75D320B6211468D63EB3B67C9E85933
 
-   $ ./NavicatCipher.py dec -ncx B75D320B6211468D63EB3B67C9E85933
+   $ python ./NavicatCipher.py dec -ncx B75D320B6211468D63EB3B67C9E85933
    This is a test
 
    $ python3
@@ -122,7 +122,7 @@ See [here](doc/how-does-navicat-encrypt-password.md).
    __Example:__
 
    ```console
-   $ ./NcxReader ~/connectioms.ncx
+   $ pyhton ./NcxReader ~/connectioms.ncx
    -----------------xxxxxxxxxxxx--------------------
    Connection Type  = MYSQL
    Host             = localhost
@@ -149,7 +149,7 @@ See [here](doc/how-does-navicat-encrypt-password.md).
    __Example:__
 
    ```console
-   >ShowNavicat.py
+   $ python ShowNavicat.py
    +--------------------------------------------------+
    |                   MySQL Server                   |
    +--------------------------------------------------+
